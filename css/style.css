@@ -8,7 +8,16 @@
 
 li {
     list-style: none;
-    line-height: 1rem;
+    line-height: 2rem;
+}
+
+header, .logo{
+    width: 100%;
+}
+.logo img{width: 20%;
+}
+.logo h1{
+    display: inline;inline;
 }
 
 .menu, .container{
@@ -53,4 +62,59 @@ main {
     margin: 0.2rem auto;
 }
 
+.arrow{
+    font-size: 30px;
+    vertical-align: -webkit-baseline-middle;
+}
 
+.tick, .wrong {
+    text-align: center;
+    border-radius: 131%;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.tick {
+    color: rgba(117, 227, 203, 1);
+    border: 2px solid rgba(117, 227, 203, 1);   
+}
+.wrong{
+    color:red;
+    border: 2px solid red;
+}
+    
+.blue-back, .purple-back, .green-back, .orange-back, .fucsia-back, .green2-back {
+    font-size: 10px;
+    color: white;
+    padding: 9px;
+    border-radius: 12px;
+}
+
+.blue-back{
+    background-color:rgba(71, 173, 241, 1);
+    border-color: rgba(71, 173, 241, 1);
+}
+
+.purple-back{
+    background-color:rgba(156, 114, 228, 1) ;
+    border-color:rgba(156, 114, 228, 1) ;
+}
+.green-back{
+    background-color:rgba(100, 192, 169, 1) ;
+    border-color:rgba(100, 192, 169, 1) ;
+
+}
+.orange-back{
+    background-color:rgba(242, 158, 51, 1) ;
+    border-color: rgba(242, 158, 51, 1) ;
+
+}
+.fucsia-back{
+    background-color:rgba(216, 99, 161, 1) ;
+    border-color:rgba(216, 99, 161, 1) ;
+
+}
+.green2-back{
+    background-color:rgba(176, 201, 38, 1) ;
+    border-color:rgba(176, 201, 38, 1) ;
+}
