@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
 <header>
-    <img src="./img/Logo.png" alt="logo">
-    <h1>Toboolist</h1>
+    <div class="headsite">
+        <div class="logo">
+            <img src="./img/Logo.png" alt="logo">
+        </div>
+        <div class="title">
+            <h1> Toboolist  </h1>
+        </div>
+    </div>
 </header>
 
 <main>
@@ -19,46 +26,52 @@
         <button class="button2">Add Section</button>
     </div>
 
-
-    <!--parte intestazione -->
-    <div class="intestazione1">
-        <ul><strong> &#129171; New Task </strong> 
-            <li> &#10003; Quarterly Newsletter    <span class="blue-back">Editorial</span></li>
+    <div class="container">        
+        <div class="intestazione1">
+        <h3><i class="arrow">&#129171;</i>
+              New Task</h3>
+        <ul>
+            <li>
+                <i class="tick">&#10003;</i>
+                Quarterly Newsletter<span class="blue-back">Editorial</span>
+            </li>
         </ul>
+        </div>
 
-
-    </div>
-
-
-    <div class="intestazione2">
-        <ul><strong> &#129171; Today </strong>
-            <li> &#10003; Recruiting blog post  <span class="blue-back">Editorial</span></li>
-            <li> &#10003; Mobile app luaunch  <span class="purple-back">Q1 Goals</span></li>
-            <li> &#10005; Interview John H. <span class="green-back">Recruiting</span></li>
-            <li> &#10003; Summit update to mobile storefronts  <span class="orange-back">Mobile</span></li>
+        <div class="intestazione2">
+        <h3><i class="arrow">&#129171;</i> 
+            Today</h3>
+        <ul>
+            <li> <i class="tick">&#10003;</i>
+                 Recruiting blog post  <span class="blue-back">Editorial</span></li>
+            <li><i class="tick">&#10003;</i>
+        
+                 Mobile app luaunch  <span class="purple-back">Q1 Goals</span></li>
+            <li> <i class="wrong">&#10005;</i>
+                
+                 Interview John H. <span class="green-back">Recruiting</span>
+                </li>
+            <li><i class="tick">&#10003;</i>
+                 Summit update to mobile storefronts<span class="orange-back">Mobile</span></li>
         </ul>
-    </div>
+         </div>
 
-
-    <div class="intestazione3">
-         <ul><strong> &#129171; Upcoming </strong>
-            <li> &#10005; Schedule meeting with Alex  </li>
-            <li> &#10003; Homepage refresh <span class="fucsia-back">Website</span></li>
-            <li> &#10003; Onboard new Sales team members  <span class="green2-back"></span></li>
-            <li> &#10003; Review editorial calendar  <span class="blue-back">Editorial</span></li>
+        <div class="intestazione3">
+        <h3><i class="arrow">&#129171;</i>
+            Upcoming</h3>
+         <ul>  
+            <li> <i class="wrong">&#10005;</i>
+                Schedule meeting with Alex  </li>
+            <li> <i class="tick">&#10003;</i>
+                  Homepage refresh<span class="fucsia-back">Website</span></li>
+            <li> <i class="tick"> &#10003;</i>
+                 Onboard new Sales team members<span class="green2-back"></span></li>
+            <li>
+                 <i class="tick">&#10003;</i>
+                Review editorial calendar<span class="blue-back">Editorial</span></li>
         </ul>
-
-
-
-
-    </div>
-
-
-</main>
-
-
-
-
-    
+        </div>
+    </div>   
+</main>   
 </body>
 </html>

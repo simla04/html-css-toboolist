@@ -3,10 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 li {
     list-style: none;
+    line-height: 1rem;
 }
 
 .menu, .container{
@@ -16,18 +18,39 @@ li {
     background-color: white ;
 }
 
-
 main {
     background-color: rgb(228, 232, 234);
+    padding: 1rem 0rem 1rem 0rem;
 }
 
+
 .menu{
-    margin: 0.7rem auto;
+    margin:0.7rem auto;
+
+}
+
+.menu button{
+    font-size: 0.5rem;
+    border-radius: 13%;
+    padding: 0.3rem
+}
+
+.button1{
+    background-color:rgba(71, 173, 241, 1);
+    border-color: rgba(71, 173, 241, 1);
+
+    color: white;
+}
+
+.button2{
+    border: rgb(177, 176, 176) solid 1px;
+    color: rgb(177, 176, 176);
+    background-color: white;
+
 }
 
 .container{
     margin: 0.2rem auto;
 }
-
 
 
