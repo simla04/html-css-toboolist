@@ -5,3 +5,29 @@
     box-sizing: border-box;
 }
 
+li {
+    list-style: none;
+}
+
+.menu, .container{
+    width: 500px;
+    border: 3px blue solid;
+    padding: 0.75rem;
+    background-color: white ;
+}
+
+
+main {
+    background-color: rgb(228, 232, 234);
+}
+
+.menu{
+    margin: 0.7rem auto;
+}
+
+.container{
+    margin: 0.2rem auto;
+}
+
+
+
